@@ -1,0 +1,7 @@
+num = float(input("enter a number: "))
+if num > 30:
+    print("positiv number")
+elif num == 30:
+    print("thirthy")
+else:
+    print("negative number")
