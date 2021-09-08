@@ -1,0 +1,11 @@
+# question number 1 :
+number = int(input("enter your number to check if it can be divided by 10:"))
+
+if number % 2 == 0:
+    print("the number can be divided by 10")
+elif number % 5 == 0:
+    print("the number can be divided by 10")
+else:
+    print("the number can`t be divided by 10")
+
+# question number 2 :
