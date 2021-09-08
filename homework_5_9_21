@@ -1,0 +1,32 @@
+# question number 1 :
+while True:
+    Number = int(input('Enter your number to check if it can be divided by 10 : '))
+    if Number % 2 == 0:
+        print('The number can be divided by 10')
+    elif Number % 5 == 0:
+        print('The number can be divided by 10')
+    else:
+        print('The number can`t be divided by 10')
+    if input('Do you want to repeat (y/n)') == 'n':
+        break
+
+# question number 2:
+Numb = int(input('Your Number'))
+if Numb == -1:
+   print('-1')
+elif Numb == 1:
+   print('1')
+elif Numb == 0:
+   print('0')
+else:
+   print('unknow number')
+
+# question number 3:
+numb = int(input('Your number?'))
+if 10 <= numb < 99:
+    print('Number: ' + str(numb)[1])
+
+#question number 4:
+
+
+
