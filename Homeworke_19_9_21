@@ -38,3 +38,9 @@ num = int(input('Your Number : '))
 
 print_factors(num)
 
+
+# question number 10
+
+num = input('Your Number : ')
+print(num[0])
+
