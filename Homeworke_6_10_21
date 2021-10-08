@@ -1,0 +1,53 @@
+# question number 7 + 8
+
+largest = None
+smallest = None
+
+while True :
+    num = input('Enter a number: ')
+    if num == "0" :
+        break
+    try :
+        num = int(num)
+    except :
+        print('Wrong input')
+        continue
+    if largest is None :
+        largest = num
+    elif largest < num :
+        largest = num
+    if smallest is None :
+        smallest = num
+    elif num < smallest :
+        smallest = num
+
+print('Maximum is', largest)
+print('Minimum is', smallest)
+
+
+
+# quetion number 10
+
+num = input('Your Number : ')
+print(num[0])
+
+
+
+
+# quetion number 11
+
+num = input('enter a number')
+length = len(num)
+print(length)
+
+
+
+# quetion number 12
+
+two_digit_number = input('enter a two digit number')
+
+first_digit = two_digit_number[0]
+seconde_digit = two_digit_number[1]
+
+result = int(first_digit) + int(seconde_digit)
+print(result)
